@@ -1,0 +1,8 @@
+{
+	"references": [
+		{
+			"path": "./js/script"
+		}
+	],
+	"files": []
+}

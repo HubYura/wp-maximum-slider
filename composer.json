@@ -1,0 +1,35 @@
+{
+	"name": "crosslink/maximum-slider",
+	"authors": [],
+	"autoload": {
+		"psr-4": {
+			"MaximumSlider\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"MaximumSlider\\Tests\\": "tests/"
+		}
+	},
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/crosslink-ch/wp-utilitatem"
+		}
+	],
+	"require-dev": {
+		"squizlabs/php_codesniffer": "^3.9",
+		"wp-coding-standards/wpcs": "^3.0",
+		"wp-phpunit/wp-phpunit": "^6.4",
+		"yoast/phpunit-polyfills": "^2.0"
+	},
+	"config": {
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		}
+	},
+	"require": {
+		"crosslink-ch/wp-utilitatem": "^0.3.4",
+		"jjgrainger/wp-custom-post-type-class": "dev-master"
+	}
+}
